@@ -1,0 +1,21 @@
+{
+    "name": "par274/templater",
+    "description": "A simple template engine for simple PHP applications. ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Par274",
+            "email": "parantezprojects@gmail.com",
+            "homepage": "https://github.com/par274"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Templater\\": "."
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "symfony/var-dumper": "^5.4"
+    }
+}
